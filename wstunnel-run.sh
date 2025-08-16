@@ -13,4 +13,4 @@ fi
 
 # Запускаем клиент
 echo "[*] Запускаю wstunnel..."
-$BIN client -L tcp://127.0.0.1:51820:127.0.0.1:51820 wss://vpn.brokenvps.top/
+$BIN client -L udp://127.0.0.1:51820:127.0.0.1:51820 wss://vpn.brokenvps.top/
