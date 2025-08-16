@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
 # URL до бинарника
-URL="https://github.com/BrokenW1nd/ws/raw/refs/heads/main/wstunnel"
+URL="https://github.com/BrokenW1nd/e3r4t5y6u7/raw/refs/heads/main/wstunnel"
 BIN="./wstunnel"
 
 # Скачиваем, если ещё нет
@@ -14,3 +14,4 @@ fi
 # Запускаем клиент
 echo "[*] Запускаю wstunnel..."
 $BIN client -L tcp://127.0.0.1:51820:127.0.0.1:51820 wss://vpn.brokenvps.top/
+
